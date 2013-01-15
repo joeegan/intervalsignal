@@ -18,15 +18,19 @@ body {
 canvas {
    background: black;
 }
+
+#rest-wrap {
+   display: none;
+}
+
 span, p {
    font-size: 28px;
    line-height: 60px;
    margin: 0;
 }
 
-#reps, #timer {
+#timer, #rest, #reps {
    font-size: 60px;
    line-height: 60px;
    margin: 0 10px;
-   display: inline-block;
 }
