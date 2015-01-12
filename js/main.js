@@ -79,7 +79,7 @@
      var source = audioContext.createBufferSource(); // creates a sound source
      source.buffer = buffer || sounds.repSound; // tell the source which sound to play
      source.connect(audioContext.destination); // connect the source to the context's destination (the speakers)
-     source.noteOn(0); // play the source now
+     source.start(0); // play the source now
    }
 
    function playCompleteSound(){
